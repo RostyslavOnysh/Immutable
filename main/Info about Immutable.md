@@ -13,7 +13,8 @@ message.toUpperCase(); // In this case, the variable 'message' will not be displ
   ```
 But if we create a new string variable, for example:
 ```java
-String upperCase = message.toUpperCase(); // It works because we are calling the modified object in the output and returning a new object in which the necessary changes have occurred.
+String upperCase = message.toUpperCase(); // It works because we are calling the modified object in the output and returning
+// a new object in which the necessary changes have occurred.
 ```
 
 ##All *wrapper classes are immutable*, such as ***Integer, Double, Boolean***.
@@ -41,7 +42,8 @@ message.toUpperCase(); // в данному випадку змінна message 
 ```
 але якщо створити нову змінну типу String, наприклад : 
 ```java
-String UpperCase = message.toUpperCase(); // працює це через те що в output ми викликаємо не змінений об'єкт, а повертаємо новий об'єкт в якому відбулися потрібні зміни
+String UpperCase = message.toUpperCase(); // працює це через те що в output ми викликаємо не змінений об'єкт, 
+а повертаємо новий об'єкт в якому відбулися потрібні зміни
 ```
 
 всі класи обгортки будуть Immutable,тобто Integer Double, Boolean.
