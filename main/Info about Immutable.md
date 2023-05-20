@@ -25,7 +25,6 @@ Where is it appropriate to use immutable objects?
 For example, when we perform a certain action on an object but do not want changes to occur in that object, and instead, 
 * we want the result of the operation to form a specific new object." 
 
-~~~~
 
 # Immutable
 
