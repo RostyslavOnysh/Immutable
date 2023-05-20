@@ -13,7 +13,8 @@ message.toUpperCase(); // In this case, the variable 'message' will not be displ
   ```
 But if we create a new string variable, for example:
 ```java
-String upperCase = message.toUpperCase(); // It works because we are calling the modified object in the output and returning a new object in which the necessary changes have occurred.
+String upperCase = message.toUpperCase(); // It works because we are calling the modified object in the output and returning
+// a new object in which the necessary changes have occurred.
 ```
 
 ##All *wrapper classes are immutable*, such as ***Integer, Double, Boolean***.
@@ -25,7 +26,6 @@ Where is it appropriate to use immutable objects?
 For example, when we perform a certain action on an object but do not want changes to occur in that object, and instead, 
 * we want the result of the operation to form a specific new object." 
 
-~~~~
 
 # Immutable
 
